@@ -1,0 +1,20 @@
+
+Call:
+lm(formula = pct_adults_25plus_hs_or_higher ~ pct_population_below_poverty, 
+    data = project_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-10.278  -3.167   0.106   3.046   9.675 
+
+Coefficients:
+                             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                   27.8744     2.0895   13.34   <2e-16 ***
+pct_population_below_poverty   0.1697     0.1220    1.39    0.169    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 4.586 on 75 degrees of freedom
+Multiple R-squared:  0.02512,	Adjusted R-squared:  0.01212 
+F-statistic: 1.933 on 1 and 75 DF,  p-value: 0.1686
+
