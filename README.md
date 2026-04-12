@@ -71,7 +71,14 @@ The report includes: - Description of the dataset
 
 ------------------------------------------------------------------------
 
-## How to Build the Report
+## Package Environment
+
+This project uses the `renv` package to manage package versions and
+improve reproducibility.
+
+To restore the package environment for this project, run:
+
+\`\`\`bash make install
 
 To reproduce the full analysis and generate the final report, run:
 
