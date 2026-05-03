@@ -1,3 +1,6 @@
+install:
+	Rscript -e "renv::restore()"
+
 all: README.md
 
 output/project_data.rds: code/01_load_data.R data/merged_clean.RDS
